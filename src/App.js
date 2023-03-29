@@ -1,13 +1,13 @@
-import Body from './components/Body';
-import Footer from './components/Footer';
-import Header from './components/Header';
+import Header from './shared/Header.js';
+import Footer from './shared/Footer.js';
 import './style/App.css';
+import ProductList from './pages/product/ProductList.js';
 
 const App = () => {
   return (
     <>
       <Header />
-      <Body />
+      <ProductList/>
       <Footer />
     </>
   )
