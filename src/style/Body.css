@@ -1,0 +1,19 @@
+.body {
+    margin: 30px 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.body ul {
+    list-style-type: none;
+    height: 80vh;
+}
+
+.body ul li {
+    width: 100px;
+    padding: 5px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    background-color: gray;
+    text-align: center;
+}
