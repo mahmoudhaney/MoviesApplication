@@ -1,13 +1,13 @@
 import Header from './shared/Header.js';
 import Footer from './shared/Footer.js';
 import './style/App.css';
-import ProductList from './pages/product/ProductList.js';
+import { Outlet } from 'react-router-dom';
 
 const App = () => {
   return (
     <>
       <Header />
-      <ProductList/>
+      <Outlet />
       <Footer />
     </>
   )
