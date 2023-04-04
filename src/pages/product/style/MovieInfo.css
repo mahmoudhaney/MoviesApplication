@@ -1,0 +1,66 @@
+.movie-info {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.movie-info .container {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #ddd;
+    border-radius: 15px;
+    box-shadow: -4px 4px 0 0 black;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.movie-info .container .imgSection {
+    width: 25%;
+}
+
+.movie-info .container .imgSection img {
+    height: 350px;
+}
+
+.movie-info .container .imgSection img,
+.movie-info .container .imgSection button {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+
+.movie-info .container .txtSection {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.txtSection div {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.txtSection div a {
+    text-decoration: none;
+    padding: 10px;
+    border: 1px solid red;
+    border-radius: 5px;
+    color: black;
+}
+
+.subtitles {
+    width: 70%;
+}
+
+.subtitles a {
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px;
+    border: 1px solid red;
+    border-radius: 5px;
+    color: black;
+}

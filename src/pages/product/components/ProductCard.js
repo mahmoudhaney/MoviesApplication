@@ -11,7 +11,14 @@ const ProductCard = (props) => {
             <div className="card-info">
                 <h4 className='title'>{props.name}</h4>
                 <p className="description">{props.description}</p>
-                <button><Link to={"/movie-info/" + Number(props.id)}>Watch Now</Link></button>
+                <button>
+                    <Link 
+                        to={"/movie-info/" + Number(props.id)}
+                        state={{id:props.id,name:props.name}}
+                    >
+                        Watch Now
+                    </Link>
+                </button>
             </div>
         </div>
     );
