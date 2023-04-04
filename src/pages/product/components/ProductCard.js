@@ -1,5 +1,7 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import '../style/ProductCard.css'
+
 const ProductCard = (props) => {
     return (
         <div className="productCard">
@@ -9,7 +11,7 @@ const ProductCard = (props) => {
             <div className="card-info">
                 <h4 className='title'>{props.name}</h4>
                 <p className="description">{props.description}</p>
-                <button>Watch Now</button>
+                <button><Link to={"/movie-info/" + Number(props.id)}>Watch Now</Link></button>
             </div>
         </div>
     );

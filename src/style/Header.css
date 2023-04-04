@@ -44,3 +44,24 @@ header nav ul li a{
 header nav ul li a:hover {
     color: red;
 }
+
+@media (max-width: 720px) {
+    .logo {
+        display: none;
+    }
+
+    header nav {
+        width: 90%;
+    }
+}
+
+@media (max-width: 320px) {
+    nav {
+        display: none;
+    }
+
+    header .logo {
+        display: block;
+        width: 90%;
+    }
+}

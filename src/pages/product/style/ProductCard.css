@@ -45,18 +45,23 @@
 }
 
 .productCard .card-info button {
-    background-color: red;
-    color: white;
-    border: 1px solid red;
-    border: none;
+    background-color: black;
+    border: 1px solid black;
     border-radius: 5px;
     transition: 0.3s;
 }
 
 .productCard .card-info button:hover {
     background-color: white;
-    color: black;
-    border-left: 1px solid black;
-    border-right: 1px solid black;
+    border-color: red;
     transform: scale(1.2);
+}
+
+.productCard .card-info button a {
+    color: white;
+    text-decoration: none;
+}
+
+.productCard .card-info button:hover a{
+    color: black;
 }

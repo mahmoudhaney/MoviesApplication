@@ -3,6 +3,14 @@
     margin: 0;
 }
 
+body {
+    min-height: 100vh; 
+    margin: 0; 
+    
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+
 .container {
     padding-left: 15px;
     padding-right: 15px;

@@ -1,0 +1,54 @@
+.contact {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.contact-title {
+    color: red;
+    text-align: center;
+    font-weight: 800;
+    font-size: 80px;
+    letter-spacing: -4px;
+}
+
+.contact-title + p {
+    text-align: center;
+    color: black;
+    margin: -25px 0 0;
+}
+
+.contact form {
+    margin-top: 50px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 15px;
+    box-shadow: -4px 4px 0 0 black;
+}
+
+input[type=text], textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+}
+  
+button[type=submit] {
+    width: 100%;
+    background-color: black;
+    border: 1px solid black;
+    border-radius: 5px;
+    transition: 0.3s;
+    color: white;
+    padding: 12px 20px;
+    cursor: pointer;
+}
+  
+button[type=submit]:hover {
+    background-color: white;
+    color: black;
+    border-color: red;
+    transform: scale(1.02);
+}

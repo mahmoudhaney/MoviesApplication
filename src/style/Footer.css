@@ -1,5 +1,17 @@
 footer {
-    background-color: gray;
-    padding: 10px;
+    width: 100%;
+    background-color: black;
+    color: white;
     text-align: center;
+}
+
+footer p {
+    padding: 20px;
+    text-align: center;
+}
+
+footer p span a {
+    text-decoration: none;
+    color: red;
+    font-weight: bolder;
 }

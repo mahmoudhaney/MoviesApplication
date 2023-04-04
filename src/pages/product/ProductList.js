@@ -17,7 +17,8 @@ const ProductList = () => {
                         {
                             movies.map((movie) => {
                                 return <ProductCard 
-                                        key={movie.id} 
+                                        key={movie.id}
+                                        id={movie.id}
                                         name={movie.name}
                                         description={movie.description}
                                         image={movie.image}
