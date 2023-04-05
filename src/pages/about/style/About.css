@@ -1,10 +1,10 @@
 .about {
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: var(--sectionPadding);
+    padding-bottom: var(--sectionPadding);
 }
 
 .about-title {
-    color: red;
+    color: var(--mainColor);
     text-align: center;
     font-weight: 800;
     font-size: 80px;
@@ -13,12 +13,12 @@
 
 .about-title + p {
     text-align: center;
-    color: black;
+    color: var(--secondColor);
     margin: -25px 0 0;
 }
 
 .about .about-content {
-    margin-top: 50px;
+    margin-top: var(--sectionMargin);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -31,7 +31,7 @@
 
 .about-content .about-img::before {
     content: "";
-    background-color: black;
+    background-color: var(--secondColor);
     width: 100px;
     height: calc(100% + 100px);
     position: absolute;
@@ -45,8 +45,8 @@
     width: 100px;
     height: calc(100% - 30%);
     position: absolute;
-    border-left: 100px solid red;
-    border-bottom: 100px solid red;
+    border-left: 100px solid var(--mainColor);
+    border-bottom: 100px solid var(--mainColor);
     top: -50px;
     right: -120px;
     z-index: -1;
@@ -64,7 +64,7 @@
     font-size: 20px;
     font-weight: 300;
     line-height: 1.8;
-    color: black;
+    color: var(--secondColor);
 }
 
 .about-content .about-text p:first-of-type {
@@ -75,7 +75,7 @@
 .about .about-content .about-text hr {
     width: 50%;
     display: inline-block;
-    border-color: red;
+    border-color: var(--mainColor);
 }
 
 @media (max-width: 991px) {
@@ -85,7 +85,7 @@
     }
 
     .about .about-content .about-img{
-        margin: 0 auto 60px;
+        margin: 0 auto var(--sectionMargin);
     }
 
     .about-content .about-img::before,

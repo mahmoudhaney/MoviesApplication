@@ -1,6 +1,6 @@
 .productList {
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: var(--sectionMargin);
+    margin-bottom: var(--sectionMargin);
 }
 
 .productList .container {

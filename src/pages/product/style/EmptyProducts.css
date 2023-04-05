@@ -1,9 +1,9 @@
 .empty-products {
     text-align: center;
-    background-color: red;
-    color: white;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    background-color: var(--mainColor);
+    color: var(--thirdColor);
+    margin-top: var(--sectionMargin);
+    margin-bottom: var(--sectionMargin);
     padding: 20px;
     font-size: 20px;
 }

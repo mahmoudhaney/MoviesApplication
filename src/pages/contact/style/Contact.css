@@ -1,10 +1,10 @@
 .contact {
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: var(--sectionPadding);
+    padding-bottom: var(--sectionPadding);
 }
 
 .contact-title {
-    color: red;
+    color: var(--mainColor);
     text-align: center;
     font-weight: 800;
     font-size: 80px;
@@ -13,22 +13,22 @@
 
 .contact-title + p {
     text-align: center;
-    color: black;
+    color: var(--secondColor);
     margin: -25px 0 0;
 }
 
 .contact form {
     margin-top: 50px;
     padding: 20px;
-    border: 1px solid #ddd;
+    border: 1px solid var(--borderColor);
     border-radius: 15px;
-    box-shadow: -4px 4px 0 0 black;
+    box-shadow: -4px 4px 0 0 var(--secondColor);
 }
 
 input[type=text], textarea {
     width: 100%;
     padding: 12px;
-    border: 1px solid #ddd;
+    border: 1px solid var(--borderColor);
     border-radius: 5px;
     box-sizing: border-box;
     margin-top: 6px;
@@ -37,18 +37,18 @@ input[type=text], textarea {
   
 button[type=submit] {
     width: 100%;
-    background-color: black;
-    border: 1px solid black;
+    background-color: var(--secondColor);
+    border: 1px solid var(--secondColor);
     border-radius: 5px;
     transition: 0.3s;
-    color: white;
+    color: var(--thirdColor);
     padding: 12px 20px;
     cursor: pointer;
 }
   
 button[type=submit]:hover {
-    background-color: white;
-    color: black;
-    border-color: red;
+    background-color: var(--thirdColor);
+    color: var(--secondColor);
+    border-color: var(--mainColor);
     transform: scale(1.02);
 }

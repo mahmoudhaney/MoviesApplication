@@ -1,6 +1,6 @@
 .movie-info {
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: var(--sectionPadding);
+    padding-bottom: var(--sectionPadding);
     display: flex;
     align-items: center;
 }
@@ -8,9 +8,9 @@
 .movie-info .container {
     display: flex;
     justify-content: space-between;
-    border: 1px solid #ddd;
+    border: 1px solid var(--borderColor);
     border-radius: 15px;
-    box-shadow: -4px 4px 0 0 black;
+    box-shadow: -4px 4px 0 0 var(--secondColor);
     padding-top: 20px;
     padding-bottom: 20px;
 }
@@ -46,9 +46,9 @@
 .txtSection div a {
     text-decoration: none;
     padding: 10px;
-    border: 1px solid red;
+    border: 1px solid var(--mainColor);
     border-radius: 5px;
-    color: black;
+    color: var(--secondColor);
 }
 
 .subtitles {
@@ -60,7 +60,7 @@
     text-align: center;
     text-decoration: none;
     padding: 10px;
-    border: 1px solid red;
+    border: 1px solid var(--mainColor);
     border-radius: 5px;
-    color: black;
+    color: var(--secondColor);
 }

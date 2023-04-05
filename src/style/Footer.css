@@ -1,7 +1,7 @@
 footer {
     width: 100%;
-    background-color: black;
-    color: white;
+    background-color: var(--secondColor);
+    color: var(--thirdColor);
     text-align: center;
 }
 
@@ -12,6 +12,6 @@ footer p {
 
 footer p span a {
     text-decoration: none;
-    color: red;
+    color: var(--mainColor);
     font-weight: bolder;
 }

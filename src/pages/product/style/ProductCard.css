@@ -1,13 +1,13 @@
 .productCard {
     margin-bottom: 20px;
-    border: 1px solid #ddd;
+    border: 1px solid var(--borderColor);
     border-radius: 15px;
     transition: 0.3s;
 }
 
 .productCard:hover {
     transform: translate(4px, -4px);
-    box-shadow: -4px 4px 0 0 black;
+    box-shadow: -4px 4px 0 0 var(--secondColor);
 }
 
 .productCard .card-img {
@@ -33,7 +33,7 @@
 }
 
 .productCard .card-info h4 {
-    color: red;
+    color: var(--mainColor);
     font-weight: bolder;
     padding-bottom: 0;
     font-size: 18px;
@@ -45,23 +45,23 @@
 }
 
 .productCard .card-info button {
-    background-color: black;
-    border: 1px solid black;
+    background-color: var(--secondColor);
+    border: 1px solid var(--secondColor);
     border-radius: 5px;
     transition: 0.3s;
 }
 
 .productCard .card-info button:hover {
-    background-color: white;
-    border-color: red;
+    background-color: var(--thirdColor);
+    border-color: var(--mainColor);
     transform: scale(1.2);
 }
 
 .productCard .card-info button a {
-    color: white;
+    color: var(--thirdColor);
     text-decoration: none;
 }
 
 .productCard .card-info button:hover a{
-    color: black;
+    color: var(--secondColor);
 }
