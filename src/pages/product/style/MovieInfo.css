@@ -16,7 +16,7 @@
 }
 
 .movie-info .container .imgSection {
-    width: 25%;
+    width: 30%;
 }
 
 .movie-info .container .imgSection img {
@@ -37,30 +37,65 @@
     justify-content: space-around;
 }
 
-.txtSection div {
-    width: 70%;
+.txtSection .resolution {
     display: flex;
     justify-content: space-between;
 }
 
-.txtSection div a {
+.txtSection .resolution a {
+    width: calc(60% / 4);
     text-decoration: none;
     padding: 10px;
     border: 1px solid var(--mainColor);
     border-radius: var(--smallBorderRadius);
     color: var(--secondColor);
-}
-
-.subtitles {
-    width: 70%;
+    text-align: center;
 }
 
 .subtitles a {
-    width: 100%;
+    display: block;
     text-align: center;
     text-decoration: none;
     padding: 10px;
     border: 1px solid var(--mainColor);
     border-radius: var(--smallBorderRadius);
     color: var(--secondColor);
+}
+
+@media (max-width: 800px) {
+    .movie-info .container {
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .movie-info .container .imgSection {
+        width: 80%;
+        margin-bottom: 25px;
+    }
+
+    .movie-info .container .txtSection {
+        width: 80%;
+        align-items: center;
+    }
+
+    .movie-info .container .txtSection > * {
+        margin-bottom: 10px;
+    }
+
+    .txtSection div {
+        width: 100%;
+    }
+}
+
+@media (max-width: 400px) {
+    .txtSection .resolution {
+        flex-direction: column;
+    }
+
+    .txtSection .resolution a {
+        width: auto;
+        margin-bottom: 10px;
+    }
 }

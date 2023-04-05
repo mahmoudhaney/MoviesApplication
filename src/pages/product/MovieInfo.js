@@ -16,10 +16,11 @@ const MovieInfo = () => {
                     <h3>{location.state.name}</h3>
                     <p>ID: <b>{location.state.id}</b></p>
                     <p>Action / Adventure / Fantasy</p>
-                    <div>
-                        <Link to={'/'}>720p.WEB</Link>
-                        <Link to={'/'}>1080p.WEB</Link>
-                        <Link to={'/'}>2160p.WEB</Link>
+                    <div className='resolution'>
+                        <Link to={'/'}>480p</Link>
+                        <Link to={'/'}>720p</Link>
+                        <Link to={'/'}>1080p</Link>
+                        <Link to={'/'}>2160p</Link>
                     </div>
                     <div className="subtitles">
                         <Link to={'/'} className='subtitles'>Download Subtitles</Link>
