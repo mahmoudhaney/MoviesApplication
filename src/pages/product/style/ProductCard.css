@@ -1,8 +1,8 @@
 .productCard {
     margin-bottom: 20px;
     border: 1px solid var(--borderColor);
-    border-radius: 15px;
-    transition: 0.3s;
+    border-radius: var(--BigBorderRadius);
+    transition: var(--mainDuration);
 }
 
 .productCard:hover {
@@ -18,8 +18,8 @@
 .productCard .card-img img {
     width: 100%;
     height: 100%;
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
+    border-top-left-radius: var(--BigBorderRadius);
+    border-top-right-radius: var(--BigBorderRadius);
 }
 
 .productCard .card-info {
@@ -42,19 +42,6 @@
 .productCard .card-info p {
     color: gray;
     font-size: 14px;
-}
-
-.productCard .card-info button {
-    background-color: var(--secondColor);
-    border: 1px solid var(--secondColor);
-    border-radius: 5px;
-    transition: 0.3s;
-}
-
-.productCard .card-info button:hover {
-    background-color: var(--thirdColor);
-    border-color: var(--mainColor);
-    transform: scale(1.2);
 }
 
 .productCard .card-info button a {

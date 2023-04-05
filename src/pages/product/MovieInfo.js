@@ -9,8 +9,8 @@ const MovieInfo = () => {
             <div className="container">
                 <div className="imgSection">
                     <img src="https://picsum.photos/200" alt="Movie" />
-                    <Link to={'/'}><button>Download</button></Link>
-                    <Link to={'/'}><button>Watch Now</button></Link>
+                    <Link to={'/'}><button className='general-btn form-btn'>Download</button></Link>
+                    <Link to={'/'}><button className='general-btn form-btn'>Watch Now</button></Link>
                 </div>
                 <div className="txtSection">
                     <h3>{location.state.name}</h3>

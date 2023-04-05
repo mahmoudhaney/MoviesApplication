@@ -6,6 +6,8 @@ Global Rules
     --secondColor: black;
     --thirdColor: white;
     --borderColor: #ddd;
+    --smallBorderRadius: 5px;
+    --BigBorderRadius: 15px;
     --sectionPadding: 50px;
     --sectionMargin: 50px;
     --mainDuration: 0.4s;
@@ -50,4 +52,105 @@ body {
     .container {
         width: 1170px;
     }
+}
+
+/* --------------------------------------
+Ready Components
+----------------------------------------- */
+.section-padding {
+    padding-top: var(--sectionPadding);
+    padding-bottom: var(--sectionPadding);
+}
+
+.section-title {
+    color: var(--mainColor);
+    text-align: center;
+    font-weight: 800;
+    font-size: 80px;
+    letter-spacing: -4px;
+}
+
+.section-title + p {
+    text-align: center;
+    color: var(--secondColor);
+    margin: -25px 0 0;
+}
+
+.general-btn {
+    background-color: var(--secondColor);
+    border: 1px solid var(--secondColor);
+    border-radius: var(--smallBorderRadius);
+    transition: var(--mainDuration);
+}
+
+.general-btn:hover {
+    background-color: var(--thirdColor);
+    border-color: var(--mainColor);
+    transform: scale(1.2);
+}
+
+.form-btn {
+    width: 100%;
+    color: var(--thirdColor);
+    padding: 12px 20px;
+    cursor: pointer;
+}
+
+.form-btn:hover {
+    color: var(--secondColor);
+    transform: scale(1.02);
+}
+
+.empty-notFound {
+    text-align: center;
+    background-color: var(--mainColor);
+    color: var(--thirdColor);
+    margin-top: var(--sectionMargin);
+    margin-bottom: var(--sectionMargin);
+    padding: 20px;
+    font-size: 20px;
+}
+
+/* --------------------------------------
+Common Styling
+----------------------------------------- */
+.form-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form {
+    width: 50%;
+    margin-top: var(--sectionMargin);
+    padding: 20px;
+    border: 1px solid var(--borderColor);
+    border-radius: var(--BigBorderRadius);
+    box-shadow: -4px 4px 0 0 var(--secondColor);
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid var(--borderColor);
+    border-radius: var(--smallBorderRadius);
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+}
+
+form .divider {
+    display: flex;
+    align-items: center;
+}
+
+form .divider hr {
+    display: inline-block;
+    width: 46%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+form .divider span {
+    padding: 5px;
 }

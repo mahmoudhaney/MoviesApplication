@@ -1,22 +1,3 @@
-.about {
-    padding-top: var(--sectionPadding);
-    padding-bottom: var(--sectionPadding);
-}
-
-.about-title {
-    color: var(--mainColor);
-    text-align: center;
-    font-weight: 800;
-    font-size: 80px;
-    letter-spacing: -4px;
-}
-
-.about-title + p {
-    text-align: center;
-    color: var(--secondColor);
-    margin: -25px 0 0;
-}
-
 .about .about-content {
     margin-top: var(--sectionMargin);
     display: flex;

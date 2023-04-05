@@ -12,7 +12,7 @@ const ProductList = () => {
         }
         else {
             return (
-                <div className="productList">
+                <div className="productList section-padding">
                     <div className="container">
                         {
                             movies.map((movie) => {

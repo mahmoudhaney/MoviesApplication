@@ -1,11 +1,10 @@
 import React from 'react';
-import './style/Contact.css'
 
 const Contact = () => {
     return (
-        <div className="contact">
-            <div className="container">
-                <h2 className="contact-title">Contact</h2>
+        <div className="contact section-padding">
+            <div className="container form-center">
+                <h2 className="section-title">Contact</h2>
                 <p>Less is more work</p>
                 <form novalidate>
                     <label for="validationCustom01">Your Name</label>
@@ -17,7 +16,7 @@ const Contact = () => {
                     <label for="validationCustom05">Message</label>
                     <textarea cols="20" rows="8" type="text" id="validationCustom05" required></textarea>
 
-                    <button type="submit">Submit</button>
+                    <button className='general-btn form-btn' type="submit">Submit</button>
                 </form>
             </div>
         </div>

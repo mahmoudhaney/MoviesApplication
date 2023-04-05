@@ -9,7 +9,7 @@
     display: flex;
     justify-content: space-between;
     border: 1px solid var(--borderColor);
-    border-radius: 15px;
+    border-radius: var(--BigBorderRadius);
     box-shadow: -4px 4px 0 0 var(--secondColor);
     padding-top: 20px;
     padding-bottom: 20px;
@@ -26,7 +26,7 @@
 .movie-info .container .imgSection img,
 .movie-info .container .imgSection button {
     width: 100%;
-    border-radius: 10px;
+    border-radius: var(--smallBorderRadius);
     margin-bottom: 5px;
 }
 
@@ -47,7 +47,7 @@
     text-decoration: none;
     padding: 10px;
     border: 1px solid var(--mainColor);
-    border-radius: 5px;
+    border-radius: var(--smallBorderRadius);
     color: var(--secondColor);
 }
 
@@ -61,6 +61,6 @@
     text-decoration: none;
     padding: 10px;
     border: 1px solid var(--mainColor);
-    border-radius: 5px;
+    border-radius: var(--smallBorderRadius);
     color: var(--secondColor);
 }

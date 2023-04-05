@@ -1,10 +1,9 @@
 import React from 'react';
-import '../style/EmptyProducts.css'
 
 const EmptyProducts = () => {
     return (
         <div className="container">
-            <div className='empty-products'>
+            <div className='empty-notFound'>
                 There Are No Movies Yet !!!
             </div>
         </div>

@@ -4,9 +4,9 @@ import image from '../../assets/images/about.jpg'
 
 const About = () => {
     return (
-        <div className="about">
+        <div className="about section-padding">
             <div className="container">
-                <h2 className="about-title">About</h2>
+                <h2 className="about-title section-title">About</h2>
                 <p>Less is more work</p>
                 <div className="about-content">
                     <div className="about-img">
