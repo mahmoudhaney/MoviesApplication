@@ -1,13 +1,23 @@
-import React from 'react';
-import { data } from '../../core/data/movies.js';
+import React, {useState, useEffect} from 'react';
 import EmptyProducts from './components/EmptyProducts.js';
 import ProductCard from './components/ProductCard';
 import './style/ProductList.css';
 
 const ProductList = () => {
-    const movies = data;
+    const [backendData, setBackendData] = useState([{}])
+
+    useEffect(() => {
+        fetch("/movies").then(
+            response => response.json()
+        ).then(
+            data => {
+                setBackendData(data)
+            }
+        )
+    }, [])
+
     const displayMovies = () => {
-        if (movies.length === 0) {
+        if (backendData.length === 0) {
             return <EmptyProducts/>;
         }
         else {
@@ -15,13 +25,13 @@ const ProductList = () => {
                 <div className="productList section-padding">
                     <div className="container">
                         {
-                            movies.map((movie) => {
+                            backendData.map((movie) => {
                                 return <ProductCard 
-                                        key={movie.id}
-                                        id={movie.id}
-                                        name={movie.name}
-                                        description={movie.description}
-                                        image={movie.image}
+                                        key={movie.ID}
+                                        id={movie.ID}
+                                        name={movie.Name}
+                                        description={movie.Description}
+                                        image={movie.Image}
                                 />;
                             })
                         }
