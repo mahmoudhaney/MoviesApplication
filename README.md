@@ -1,70 +1,67 @@
-# Getting Started with Create React App
+# Movies Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Tools
+- Frontend should be in `React.js`
+- Backend should be in (`node.js` & `Express.js`)
+- Database (`MySQL`)
 
-## Available Scripts
+## To Use the project
+After downloading the project repository and making sure that NodeJS is installed 
+1. Navigate to the `server` folder on your terminal and run this command `npm i` to install backend-end dependencies & `npm run dev` to execute.
+2. Navigate to the `client` folder on your terminal and run this command `npm i` to install front-end dependencies & `npm start` to execute.
 
-In the project directory, you can run:
+## Demo
+#### To try the front-end online [Online Front-end](https://mahmoudhaney.github.io/MoviesApplication/)
 
-### `npm start`
+<table width="100%"> 
+  <tr>
+    <td width="50%">      
+    &nbsp; 
+    <br>
+    <p align="center">
+      Login
+    </p>
+    <img src="https://github.com/mahmoudhaney/MoviesApplication/assets/83553963/6216ddc5-a356-4bd1-b343-096d6c7c2104">
+    </td> 
+    <td width="50%">
+    <br>
+    <p align="center">
+      Register
+    </p>
+    <img src="https://github.com/mahmoudhaney/MoviesApplication/assets/83553963/d02af713-3d17-4c04-aaff-db665a693145">  
+    </td>
+  </tr>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+  <tr>
+    <td width="50%">      
+    &nbsp; 
+    <br>
+    <p align="center">
+      About
+    </p>
+    <img src="https://github.com/mahmoudhaney/MoviesApplication/assets/83553963/92343c30-d341-49ef-85d8-cc2c4e9b21f9">
+    </td> 
+    <td width="50%">
+    <br>
+    <p align="center">
+      Movies
+    </p>
+    <img src="https://github.com/mahmoudhaney/MoviesApplication/assets/83553963/23a5cd68-5c1c-4afd-a002-544060359ad2">  
+    </td>
+  </tr>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+  <tr>
+    <td width="50%">      
+    &nbsp; 
+    <br>
+    <p align="center">
+      Movie Details
+    <img src="https://github.com/mahmoudhaney/MoviesApplication/assets/83553963/491ae8ea-32f8-42a1-a572-bf064a91f816">
+    <td width="50%">
+    <br>
+    <p align="center">
+      Contact Us
+    <img src="https://github.com/mahmoudhaney/MoviesApplication/assets/83553963/25d3acd8-189e-4c3a-8dab-a20aff6ff809">  
+    </td>
+  </tr>
+</table>
